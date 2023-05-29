@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  padding: 2% 5% 0 5%;
+  display: inline;
+  font-size: 1.25em;
+}
+
+header a {
+  text-decoration: none;
+}
+
+body {
+  font-family: Arial;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: flex-start;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section {
+  /* flex: 0 auto; */
+  /* padding: 8px; */
+  /* margin-top: 50px; */
+  /* background-color: white; */
+  /* border-radius: 8px; */
+  /* width: 100vw; */
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.game-container {
+
+}
+
+.start-button {
+  background: #270C61;
+  max-width: 500px;
+  padding: 20px 52px;
+  line-height: 16px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  font-size: 2em;
+  margin: 3% 0em 0 42%;
+}
+
+.selection-button {
+  background: #270C61;
+  max-width: 300px;
+  width: 500px;
+  padding: 20px 52px 20px 25px;
+  line-height: 16px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  font-size: 2em;
+  margin: .4em 0em 0 21em;
+  text-align: left;
+}
+
+.start-button:hover {
+  background: #AC41E0;
+  color: #FFF5FF;
+}
+
+.selection-button:hover {
+  background: #AC41E0;
+  color: #FFF5FF;
+}
+
+.reset-button {
+  font-size: 16px;
+  height: 30px;
+  line-height: 8px;
+  margin-top: 20px;
+}  
+
+.win-loss-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}  
+
+.game-rules {
+  font-size: 2em;
+  text-align: center;    
+  width: 55%;
+  margin: auto;
+}
+
+.large-font {
+  font-size: 3.5em;
+  text-align:center;
+}
+
+.timer {
+  height: 240px;
+  padding: 10px;
+  background: #13293d;
+  color: #fff;
+  text-align: center;
+}
+
+.timer-text {
+  padding: 55px;
+}
+
+@media screen and (max-width: 1183px) {
+  main {
+    flex-direction: column;
+  }
+
+  .word-guess,
+  .results {
+    width: 90vw;
+  }
+
+  section {
+    background-color: white;
+    margin: 20px auto;
+    width: 92vw;
+  }
+}
+
+@media screen and (max-width: 504px) {
+  .large-font {
+    font-size: 2em;
+  }
+
+  .reset-button {
+    font-size: 12px;
+    width: 20ox;
+
+  }
+
+  .timer {
+    height: 200px;
+  }
+}
