@@ -32,7 +32,7 @@ section {
   /* margin-top: 50px; */
   /* background-color: white; */
   /* border-radius: 8px; */
-  /* width: 100vw; */
+  width: 100vw;
 }
 
 .header-container {
@@ -59,15 +59,16 @@ section {
 .selection-button {
   background: #270C61;
   max-width: 300px;
-  width: 500px;
+  width: 300px;
   padding: 20px 52px 20px 25px;
   line-height: 16px;
   border-radius: 8px;
   color: white;
   cursor: pointer;
   font-size: 2em;
-  margin: .4em 0em 0 21em;
+  margin: .4em 0em 0em 12em;
   text-align: left;
+  display: block;
 }
 
 .start-button:hover {
@@ -87,12 +88,6 @@ section {
   margin-top: 20px;
 }  
 
-.win-loss-container {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 16px;
-}  
-
 .game-rules {
   font-size: 2em;
   text-align: center;    
@@ -103,18 +98,6 @@ section {
 .large-font {
   font-size: 3.5em;
   text-align:center;
-}
-
-.timer {
-  height: 240px;
-  padding: 10px;
-  background: #13293d;
-  color: #fff;
-  text-align: center;
-}
-
-.timer-text {
-  padding: 55px;
 }
 
 @media screen and (max-width: 1183px) {
