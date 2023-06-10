@@ -4,7 +4,7 @@
 Code-Quiz-JS is a fun interactive quiz game to test your Basic JavaScript knowledge. This application implements capabilities provided by Web-APIs to manipulate the dom element using primarily JavaScript methods and dynamic styling and rendering approaches. 
 
 ## Usage
-Visit <a href=https://dannonrogers.github.io/code-quiz-js/>https://dannonrogers.github.io/code-quiz-js/</a> to view the webpage. 
+Visit <a href=https://dannonrogers.github.io/code-quiz-js>https://dannonrogers.github.io/code-quiz-js</a> to view the webpage. 
 
 ![alt text](/code-quiz-js/assets/images/code-quiz-js.png)
 
